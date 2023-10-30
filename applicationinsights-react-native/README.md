@@ -4,12 +4,8 @@ React Native Plugin for the Application Insights Javascript SDK
 
 ## Getting Started
 
->**This plugin relies on [`react-native-device-info`](https://github.com/rebeccahughes/react-native-device-info). You must install and link this package. Keep `react-native-device-info` up-to-date to collect the latest device names using your app.**
-
 ```zsh
 npm install --save @microsoft/applicationinsights-react-native @microsoft/applicationinsights-web
-npm install --save react-native-device-info
-react-native link react-native-device-info
 ```
 
 ## Initializing the Plugin

@@ -43,9 +43,6 @@
 
         modules.add("react-native");
 
-        // Load React native device info
-        modules.add("react-native-device-info", "./node_modules/react-native-device-info/lib/commonjs/web/index");
-        
         var testModule = modules.add("Tests/Unit/src/reactnativeplugin.tests", "./Unit/dist/reactnativeplugin.tests.js")
         testModule.run = function (tests) {
             console && console.log("Starting tests");
